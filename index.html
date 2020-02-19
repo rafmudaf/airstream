@@ -18,8 +18,8 @@ featured_image: /images/stream.jpg
 				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
 			</div>
 
-			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+			{% if post.post_image %}
+			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.post_image | relative_url }});"></a>
 			{% endif %}
 
 			<div class="blog-post__content">
