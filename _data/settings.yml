@@ -155,7 +155,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: false
-  analytics_code: "<!-- Global site tag (gtag.js) - Google Analytics --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-68999653-7\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}; gtag('js', new Date()); gtag('config', 'UA-68999653-7'); </script>"
+  analytics_code: "<!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-66GB9ST3B7\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-66GB9ST3B7'); </script>"
   custom_styles: ""
   header_js: ""
   footer_js: ""
